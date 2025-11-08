@@ -1,0 +1,2 @@
+As the root user in Ubuntu, it is not possible to directly "find" or retrieve the plain-text password for another user account. This is due to security measures where passwords are not stored in a readable format; instead, their cryptographic hash is stored in the /etc/shadow file.
+However, since you have root privileges, you can easily reset the password for any user account.
